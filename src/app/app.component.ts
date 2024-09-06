@@ -16,5 +16,17 @@ export class AppComponent {
   idDisable:boolean=true
   isActive:boolean=true
   fruitName:string="Apple"
+  buttonClick(){
+    console.log('B')
+
+  }
+  Enter( event:any){
+    // console.log(event.keyCode);
+    if(event.keyCode==13){
+      console.log("Key BCSJDHBCSJLDH")
+
+    }
+   
+  }
   
 }

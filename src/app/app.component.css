@@ -8,6 +8,8 @@ img{
 }
 .active{
   background-color: brown;
+  border: solid rebeccapurple 10px;
+
 }
 .no-active{
   background-color: aqua;

@@ -9,9 +9,15 @@
 
 
 <!-- classs Binding -->
-<button [class.active]="isActive" [class.no-ctive]="!isActive" [class.active-border]="isActive" [class.no-active-border]="!isActive">Click me</button>
+<!-- <button [class.active]="isActive" [class.no-ctive]="!isActive" [class.active-border]="isActive" [class.no-active-border]="!isActive">Click me</button>
 
-<button [class.apple]="fruitName =='Apple'">Hello</button>
+<button [class.apple]="fruitName =='Apple'">Hello</button> -->
 
 <!-- style binding -->
 <button [style.background]="isActive?'red':'green'" [style.border]="isActive ?'3px solid yellow':''">Click</button>
+
+<button [class.active]="isActive">Welcome</button>
+
+<!-- Event Binding -->
+<button (click)="buttonClick()">Hello </button>
+<input type="text" (keyup)="Enter($event)">
